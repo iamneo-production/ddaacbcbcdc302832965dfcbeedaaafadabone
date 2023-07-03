@@ -8,7 +8,7 @@ describe('Cart Component', () => {
 
     const cart = render(<MemoryRouter><Cart /></MemoryRouter>);
 
-    const cartBody = screen.queryByTestId('bookCartBody');
+    const cartBody =  screen.queryByTestId('bookCartBody');
 
     test('feCart1', () => {
         expect(cartBody).toBeTruthy();
